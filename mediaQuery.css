@@ -1,0 +1,63 @@
+
+
+@media screen and (max-width: 768px){
+    .nav-1{
+        display: none;
+    }
+    #navbarSupportedContent{
+       float: right;
+       text-align: center;
+    }
+    #support-btn{
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .carousel-item{
+        height: 300px;
+    }
+    .data{
+        margin-top: 85px;
+    }
+    .data h2{
+        font-size: 23px;
+    }
+    .data p{
+        font-size: 11px;
+    }
+    .carousel-indicators{
+        bottom: 75px;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .card{
+        margin-top: 50px;
+        box-shadow: 0 5px 5px #7b7b7b25;
+        margin-left: 0px;
+    }
+    .card-img-top{
+        height: 150px;
+    }
+    .card-footer button{
+        margin-bottom: 10px;
+    }
+    .brand-section{
+        height: 380px;
+    }
+    .brand{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+    }
+    .brand-logo{
+        width: 85px;
+        height: 40px;
+        margin: 5px;
+    }
+}
